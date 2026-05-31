@@ -1,0 +1,45 @@
+body {
+    background-image: url("https://png.pngtree.com/thumb_back/fh260/back_our/20190628/ourmid/pngtree-simple-atmospheric-blue-temperature-needle-illustration-background-image_279280.jpg");
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: Arial;
+}
+
+.container {
+    background: brown;
+    padding: 30px;
+    width: 350px;
+    border-radius: 100px;
+    color: white;
+    text-align: center;
+}
+
+input,
+select {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 6px;
+    border: none;
+}
+
+
+button {
+    width: 90%;
+    padding: 18px;
+    font-size: 20px;
+    border: none;
+    background: #f8c100;
+    color: black;
+    font-weight: bold;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+
+
+button:hover {
+    background: #ffdd40;
+}
