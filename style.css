@@ -43,3 +43,46 @@ button {
 button:hover {
     background: #ffdd40;
 }
+
+
+body {
+    min-height: 100vh;
+    height: auto;
+}
+
+
+@media (max-width: 768px) {
+    .container {
+        width: 80%;
+        max-width: 350px;
+    }
+}
+
+
+@media (max-width: 480px) {
+    body {
+        padding: 10px;
+        box-sizing: border-box;
+    }
+
+    .container {
+        width: 100%;
+        max-width: 350px;
+        padding: 20px;
+        box-sizing: border-box;
+        border-radius: 50px;
+    }
+
+    input,
+    select {
+        box-sizing: border-box;
+    }
+}
+
+
+@media (max-width: 340px) {
+    .container {
+        padding: 15px;
+        border-radius: 35px;
+    }
+}
